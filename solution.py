@@ -1,4 +1,4 @@
-n = 6
+n = 5
 
 def pascTri(numRows):
     # Need to create an array containing numRows # of arrays containing all ones
@@ -8,18 +8,6 @@ def pascTri(numRows):
         # enumerate() function creates a tuple of the index and value
         for j in range(len(n)-2):
             # Current element of array = sum of above array's two elements that "border" it
-            n[j+1] = tri[i+1][j-1] + tri[i+1][j+1]
-            
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+            n[j+1] = tri[i+1][j] + tri[i+1][j+1]
     return tri
 print(pascTri(n))
