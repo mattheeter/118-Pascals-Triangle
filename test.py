@@ -1,2 +1,2 @@
-tri = list(range(1,20,1))
-print(tri)
+x = [[1,2,3],[4,5,6]]
+print(x[1][1])
