@@ -1,4 +1,4 @@
-n = 5
+n = 20
 
 def pascTri(numRows):
     # Need to create an array containing numRows # of arrays containing all ones
